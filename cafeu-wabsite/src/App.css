@@ -1,0 +1,463 @@
+.homepage{
+  width: 100%;
+  height: auto;
+  background-image: url(./assets/banner-bg.jpg);
+  background-size: cover;
+  position: relative;
+}
+/* menu  */
+.dr-navbar-sign{
+  cursor: pointer;
+    transition: all .6s ease-in-out;
+}
+.dr-navbar-sign span {
+  width: 20px;
+  height: 2px;
+  background-color: #292929;
+  border-radius: 50px;
+  display: block;
+  margin: 4px 0;
+  transition: all .6s ease-in-out;
+}
+
+.dr-line-2{
+  width: 15px !important;
+}
+.dr-line-3{
+  width: 10px !important;
+}
+/* menu  */
+.side-box{
+position: absolute;
+width: 300px;
+height: 50px;
+top: 40%;
+right:-125px;
+transform: rotate(90deg);
+}
+.socile-meida li a{
+  color: rgb(120,119,118) !important;
+  font-weight: 700;
+}
+
+.socile-meida li a:hover{
+  color: #99080866 !important;
+  text-decoration: underline !important;
+}
+
+.menu{
+  color: rgb(102,102,102);
+ 
+  font-family: Roboto,sans-serif;
+font-weight: 700 !important;
+}
+.number{
+  color: rgb(102,102,102);
+  font-family: Roboto,sans-serif;
+}
+.nev-detils{
+  border-top: 2px solid red !important;
+}
+
+.nev-detils li{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+.title-banara{
+font-size: 20px;
+font-family:Lobster Two,cursive;
+color: #c33;
+
+font-weight: 700;
+}
+
+.title-banara-1{
+  font-size: 47px;
+font-weight: 700;
+margin-bottom: 40px;
+margin-top: 40px;
+}
+.title-banara-2{
+  margin-bottom: 40px;
+  }
+/* carousel mediaqure */
+@media screen and (max-width:1199px) {
+  .title-banara-1{
+    font-size: 30px;
+  }
+ .banar-img{
+  width: 100%;
+ }
+}
+@media screen and (max-width:991px) {
+  .lest-line {
+      width: 56%;
+  }
+}
+
+@media screen and (max-width:767px) {
+  
+  .title-banara{
+    text-align: center;
+
+  }
+  .title-banara-1{
+    font-size: 30px;
+  }
+  .title-banara-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .lest-line {
+      width: 80%;
+  }
+}
+
+
+
+
+/* homepage-icon-css */
+.play-button {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background-color: #d32f2f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: pulse 1.5s infinite;
+}
+
+.play-button::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 32px solid rgba(211, 47, 47, 0.5);
+  border-radius: 50%;
+  animation: pulse-border 1.5s infinite;
+}
+
+.icon {
+  width: 0;
+  height: 0;
+  border-left: 9px solid #fff;
+  border-top: 8px solid transparent;
+  border-bottom: 7px solid transparent;
+}
+
+
+@keyframes pulse-border {
+  0% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  100% {
+      transform: scale(1.1);
+      opacity: 0;
+  }
+}
+/* homepage-icon-css-end */
+.card-p div h5:hover{
+color: #c33;
+}
+
+.cart-dec{
+  color: #666;
+  font-Size:15;
+  line-Height:1.7;
+  margin-Bottom:15;
+}
+
+.discover-bt{
+  color: #666;
+    font-weight: 500;
+    margin-top: 10px;
+    display: flex;
+    transition: .3s;
+text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.discover-bt::before{
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #666;
+  display: inline-flex;
+  margin: 10px;
+  transform: rotate(45deg);
+  transition: .3s;
+}
+.discover-bt::after{
+  content: "";
+    width: 5px;
+    height: 5px;
+    background: #666;
+    display: inline-flex;
+    margin: 10px;
+    transform: rotate(45deg);
+    transition: .3s;
+}
+
+/* StayInformed */
+.StayInformed{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), URL('src/assets/ad-ban-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.input-group{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.custom-btn{
+  outline: none;
+    background: #c33;
+    color: #fff;
+    padding: 10px 25px;
+    transition: .3s;
+    display: inline-block;
+    border: none;
+    border-radius: 3px;
+}
+.custom-btn:hover{
+  background:black;
+}
+
+/* about */
+.about-titte{
+  font-size: 20px;
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #c33 !important;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.service-icon{
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff9f4;
+  flex: 0 0 55px;
+  max-width: 55px;
+}
+/* about*/
+/* mean  */
+.nav-underline .nav-link.active{
+  color: #c33 !important;
+}
+
+.mean-title-color:hover{
+  color: #c33 !important;
+}
+.mean-title{
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* mean  */
+.card{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
+/* order-container */
+.order-container{
+  background-image: url(./assets/app-bg.png);
+  background-size: cover;
+}
+
+.app-1{
+  position: absolute;
+  top: -45px;
+  right: 0;
+  animation-delay: 2s;
+  width: 48%;
+  animation: second-app 1.5s linear infinite alternate;
+
+}
+.app-2{
+  position: absolute;
+  left: 0;
+  animation-delay: 2s;
+  width: 48%;
+  animation: first-app 1.5s linear infinite alternate;
+  top: -50px;
+ 
+}
+
+.app-img{
+  position: relative;
+  animation-name:app2;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.app-img2{
+  position: relative;
+  animation-name:app1; 
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes app1 {
+  0%   { top:0px;}
+  25%  {  top:-20px;}
+  50%  { top:0px;}
+  75%  { top:-20px;}
+  100% {  top:0px;}
+}
+
+@keyframes app2 {
+  0%   { bottom:0px;}
+  25%  {  bottom:-20px;}
+  50%  { bottom:0px;}
+  75%  { bottom:-20px;}
+  100% {  bottom:0px;}
+}
+/* OpeningTimes */
+.OpeningTimes{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), URL('src/assets/subscribe-bg.png');
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  height: 400px;
+  margin-bottom: 120px;
+}
+.mean-box{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.mean-list{
+  display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    border-bottom: 1px dashed #ddd;
+    /* padding: 5px; */
+    transition: .3s;
+    cursor: pointer;
+    color: #666;
+}
+
+.mean-list p{
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.mean-list:hover{
+  border-bottom: 1px dashed #f30101;
+  color: #d32f2f;
+}
+
+
+/* team-card */
+.team-card{
+  width: 250px;
+  position: absolute;
+  bottom: 0;
+border: 2px solid black;
+left: 20%;
+}
+
+
+.footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Georgia', serif;
+}
+
+.footer-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+.footer-note {
+  margin: 5px 0 0;
+  font-size: 1rem;
+}
+
+.footer-note a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+/* Make the whole page a flex container to center content */
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+/* Contact container to style the form */
+.contact-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 900px; /* Limit width on large screens */
+}
+
+/* Style form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit button style */
+.submit-btn {
+  background-color: #004aad;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #00388a;
+}
+
+/* For small screens */
+@media (max-width: 600px) {
+  .contact-container {
+      padding: 20px;
+      width: 90%;
+  }
+}
