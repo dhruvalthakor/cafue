@@ -9,7 +9,7 @@ function Feacher() {
 
 
       <div className="card d-flex justify-content-center align-items-center px-2 card-p" style={{width: "19rem",paddingTop:30,paddingBottom:30}}>
-  <img src="src/assets/1.png" className="card-img-top object-fit-contain" style={{width:85}} alt="..."/>
+  <img src="/1.png" className="card-img-top object-fit-contain" style={{width:85}} alt="..."/>
   <div className="card-body d-flex justify-content-center  align-items-center flex-column">
     <h5 className="card-title "><a href="#" className="text-decoration-none text-dark fw-bold">100% Swiss Quality</a></h5>
     <p className="card-text fw-medium text-center cart-dec" style={{
@@ -19,7 +19,7 @@ function Feacher() {
 </div>
 
 <div className="card d-flex justify-content-center align-items-center" style={{width: "19rem",paddingTop:30,paddingBottom:30}}>
-  <img src="src/assets/2.png" className="card-img-top object-fit-contain" style={{width:85}} alt="..."/>
+  <img src="/2.png" className="card-img-top object-fit-contain" style={{width:85}} alt="..."/>
   <div className="card-body d-flex justify-content-center align-items-center flex-column">
   <h5 className="card-title "><a href="#" className="text-decoration-none text-dark fw-bold">Organic Production</a></h5>
     <p className="card-text fw-medium text-center" style={{
@@ -32,7 +32,7 @@ function Feacher() {
 </div>
 
 <div className="card d-flex justify-content-center align-items-center" style={{width: "19rem",paddingTop:30,paddingBottom:30}}>
-  <img src="src/assets/3.png" className="card-img-top object-fit-contain" style={{width:85}} alt="..."/>
+  <img src="/3.png" className="card-img-top object-fit-contain" style={{width:85}} alt="..."/>
   <div className="card-body d-flex justify-content-center align-items-center flex-column">
   <h5 className="card-title "><a href="#" className="text-decoration-none text-dark fw-bold">Food Law Certifie</a></h5>
     <p className="card-text fw-medium text-center" style={{
@@ -45,7 +45,7 @@ function Feacher() {
 </div>
 
 <div className="card d-flex justify-content-center align-items-center" style={{width: "19rem",paddingTop:30,paddingBottom:30}}>
-  <img src="src/assets/4.png" className="card-img-top object-fit-contain" style={{width:85}} alt="..."/>
+  <img src="/4.png" className="card-img-top object-fit-contain" style={{width:85}} alt="..."/>
   <div className="card-body d-flex justify-content-center align-items-center flex-column">
   <h5 className="card-title "><a href="#" className="text-decoration-none text-dark fw-bold">Food Production</a></h5>
     <p className="card-text fw-medium text-center" style={{

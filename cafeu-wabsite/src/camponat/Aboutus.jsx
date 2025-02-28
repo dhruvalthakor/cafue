@@ -8,7 +8,7 @@ function Aboutus() {
 <div className="card mb-3 border-0" style={{maxwidth: "540px"}}>
   <div className="row g-0 d-flex align-items-center justify-content-center">
     <div className="col-md-6 d-flex justify-content-center align-items-center">
-      <img src="src/assets/exparience.png" className=" img-thumbnail border-0" alt="..."/>
+      <img src="/exparience.png" className=" img-thumbnail border-0" alt="..."/>
     </div>
     <div className="col-md-6">
       <div className="card-body">
@@ -19,7 +19,7 @@ function Aboutus() {
         <ul className="service-ul list-unstyled">
             <li className="ab-service-li mb-4 d-flex align-items-center  gap-4">
                 <div className="service-icon">
-                    <img src="src/assets/5.png" alt=""/>
+                    <img src="/5.png" alt=""/>
                     </div>
                     <div className="service-name-des ms-2">
                         <h5 className="service-name mb-1 mt-1 fw-bolder">Buffet Service</h5>
@@ -28,7 +28,7 @@ function Aboutus() {
                         </li>
                         <li className="ab-service-li mb-4 d-flex align-items-center  gap-4">
                         <div className="service-icon">
-                                <img src="src/assets/6.png" alt=""/>
+                                <img src="/6.png" alt=""/>
                                 </div>
                                 <div className="service-name-des ms-2">
                                 <h5 className="service-name mb-1 mt-1 fw-bolder">Online Booking</h5>

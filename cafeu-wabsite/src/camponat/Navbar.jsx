@@ -9,7 +9,7 @@ function Navbar() {
     <Navber1/>
     <nav className=" container navbar navbar-expand-lg d-none d-lg-block">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"><img src="src/assets/logo.png" alt="" /></a>
+    <a className="navbar-brand" href="#"><img src="/logo.png" alt="" /></a>
     {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button> */}
@@ -23,7 +23,7 @@ function Navbar() {
       <Navberdprops title="Pages"/>
       <Navberdprops title="Contact"/>
       <li><i className="bi bi-search"></i></li>
-      <li><a href="#" className="text-decoration-none text-black number"><img src="src/assets/call.png" alt="" /> +880 123 456 789</a></li>
+      <li><a href="#" className="text-decoration-none text-black number"><img src="/call.png" alt="" /> +880 123 456 789</a></li>
       </ul>
     </div>
   </div>

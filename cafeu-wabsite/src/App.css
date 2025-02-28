@@ -1,7 +1,7 @@
 .homepage{
   width: 100%;
   height: auto;
-  background-image: url(./assets/banner-bg.jpg);
+  background-image: url(/banner-bg.jpg);
   background-size: cover;
   position: relative;
 }
@@ -209,7 +209,7 @@ text-decoration: none;
 
 /* StayInformed */
 .StayInformed{
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), URL('src/assets/ad-ban-bg.png');
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), URL('/ad-ban-bg.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -278,7 +278,7 @@ text-decoration: none;
 
 /* order-container */
 .order-container{
-  background-image: url(./assets/app-bg.png);
+  background-image: url(/app-bg.png);
   background-size: cover;
 }
 
@@ -331,7 +331,7 @@ text-decoration: none;
 }
 /* OpeningTimes */
 .OpeningTimes{
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), URL('src/assets/subscribe-bg.png');
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), URL('/subscribe-bg.png');
   background-repeat: no-repeat;
   /* background-position: center; */
   height: 400px;

@@ -12,13 +12,13 @@ function Carousel() {
 </div>
 <div className="carousel-inner">
 <div className="carousel-item active">
-<Carouseldetials img="src/assets/baner.png" title1="BBQ Chicken " title2="Salad" title3=" with Creamy Avocado"/>
+<Carouseldetials img="/baner.png" title1="BBQ Chicken " title2="Salad" title3=" with Creamy Avocado"/>
 </div>
 <div className="carousel-item">
-<Carouseldetials img="src/assets/baner1.png" title1="Asian Lettuce Wrap" title2="Chicken" title3=" Chopped Salad"/>
+<Carouseldetials img="/baner1.png" title1="Asian Lettuce Wrap" title2="Chicken" title3=" Chopped Salad"/>
 </div>
 <div className="carousel-item">
-<Carouseldetials img="src/assets/first-slider.png" title1="Different " title2="Spice" title3=" For A Different Taste"/>
+<Carouseldetials img="/first-slider.png" title1="Different " title2="Spice" title3=" For A Different Taste"/>
 </div>
 </div>
 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

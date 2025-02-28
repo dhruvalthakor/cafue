@@ -32,7 +32,7 @@ function Maytoorder() {
                   <a href="#" className="text-decoration-none mt-4">
                     {" "}
                     <img
-                      src="src/assets/play-store.png"
+                      src="/play-store.png"
                       alt=""
                       style={{ width: "151px" }}
                     />
@@ -40,7 +40,7 @@ function Maytoorder() {
                   <a href="#" className="text-decoration-none mt-4">
                     {" "}
                     <img
-                      src="src/assets/apple.png"
+                      src="/apple.png"
                       alt=""
                       style={{ width: "151px" }}
                     />
@@ -55,14 +55,14 @@ function Maytoorder() {
             >
               <div class="app-img">
                 <img
-                  src="src/assets/app-2.png"
+                  src="/app-2.png"
                   class="img-fluid rounded-start app-1"
                   alt="..."
                 />
               </div>
               <div class="app-img2">
                 <img
-                  src="src/assets/app-1.png"
+                  src="/app-1.png"
                   class="img-fluid rounded-start app-2"
                   alt="..."
                 />
